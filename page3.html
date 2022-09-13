@@ -1,0 +1,105 @@
+<html>
+    <head>
+        <meta name="Pokéblog - Create Your Own" content="text/html; charset=UTF-8" 
+            description="A form to create your own Pokémon" 
+            author="Tioluwani Ajani" 
+            keywords="Pokémon Gen1 Gen2 Gen3 Espeon Blaziken Haunter">
+        <title>Pok&eacuteblog - Make Your Own Pok&eacutemon!</title>
+        <link href="css/styles.css" type="text/css" rel="stylesheet">
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat">
+    </head>
+    <body>
+        <div id="header">
+            <div id="home_logo">
+                <a href="index.html">
+                    <img src="images/pokemon_logo.png" alt="Pokémon Logo" title="Homepage">
+                </a>    
+            </div>
+            <div id="navbar">
+                <a href="index.html" title="Homepage">home</a> |
+                <a href="page2.html" title="Pokémon Stats">page 2</a> |
+                <a href="page3.html" title="Create Your Own Pokémon!">page 3</a> |
+                <a href="page4.html" title="Visit The Pokémon Company!">page 4</a>
+            </div>
+        </div>
+        <br><br>
+        <form action="http://www.example.com/review.php" method="get">
+            <fieldset>
+                <legend>Your Details:</legend>
+                <label>Name: <input type="text" name="name" size="30" maxlength="100"></label><br>
+                <label>Email: <input type="email" name="email" size="30" maxlength="100"></label><br>
+            </fieldset><br>
+            <fieldset>
+                <legend>Your Pok&eacutemon:</legend>
+                <p>
+                    <label>Name: <input type="text" name="poke_name" size="30" maxlength="100"></label><br>
+                </p>
+                <p>
+                    <label for="type1">Type 1:</label>
+                    <select name="type1" id="type1">
+                        <option value="normal">Normal</option>
+                        <option value="fire">Fire</option>
+                        <option value="water">Water</option>
+                        <option value="grass">Grass</option>
+                        <option value="electric">Electric</option>
+                        <option value="ice">Ice</option>
+                        <option value="fighting">Fighting</option>
+                        <option value="poison">Poison</option>
+                        <option value="ground">Ground</option>
+                        <option value="flying">Flying</option>
+                        <option value="psychic">Psychic</option>
+                        <option value="bug">Bug</option>
+                        <option value="rock">Rock</option>
+                        <option value="ghost">Ghost</option>
+                        <option value="dark">Dark</option>
+                        <option value="dragon">Dragon</option>
+                        <option value="steel">Steel</option>
+                        <option value="fairy">Fairy</option>
+                    </select>
+                </p>
+                <p>
+                    <label for="type2">Type 2 (optional):</label>
+                    <select name="type2" id="type2">
+                        <option value="none">None</option>
+                        <option value="normal">Normal</option>
+                        <option value="fire">Fire</option>
+                        <option value="water">Water</option>
+                        <option value="grass">Grass</option>
+                        <option value="electric">Electric</option>
+                        <option value="ice">Ice</option>
+                        <option value="fighting">Fighting</option>
+                        <option value="poison">Poison</option>
+                        <option value="ground">Ground</option>
+                        <option value="flying">Flying</option>
+                        <option value="psychic">Psychic</option>
+                        <option value="bug">Bug</option>
+                        <option value="rock">Rock</option>
+                        <option value="ghost">Ghost</option>
+                        <option value="dark">Dark</option>
+                        <option value="dragon">Dragon</option>
+                        <option value="steel">Steel</option>
+                        <option value="fairy">Fairy</option>
+                    </select>
+                </p>
+                <p>
+
+                </p>
+                <p>
+                    <label for="pokedex_bio">Pok&eacutedex Bio and Stats:</label><br>
+                    <textarea rows="4" cols="40" id="pokedex_bio"></textarea>
+                </p>
+                <p>
+                    <label for="poke_sketch">Upload a picture of your Pok&eacutemon!</label><br>
+                    <input type="file" name="poke_sketch" accept="image/*">
+                </p>
+                <input type="submit" value="Submit my Pokémon!">
+            </fieldset>
+        </form>
+        <br>
+        <br>
+        <br>
+        <div id="footer">
+            <p>made by Tioluwani Ajani | tajani@andrew.cmu.edu</p>
+        </div>
+    </body>
+</html>
